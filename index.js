@@ -26,14 +26,14 @@ function addressAt(index, linkedList, collection){
   return node["next"];
 }
 
-function indexAt(node, collection, linkedList){
-  let i = 0;
-  let flag = false;
-  while (flag === false){
-    if (nodeAt(i, linkedList, collection) === node){
-      flag = true;
-    }
-  }
-  return i;
-}
+// function indexAt(node, collection, linkedList){
+//   let i = 0;
+//   let flag = false;
+//   while (flag === false){
+//     if (nodeAt(i, linkedList, collection) === node){
+//       flag = true;
+//     }
+//   }
+//   return i;
+// }
 
