@@ -37,6 +37,6 @@ function addressAt(index, linkedList, collection){
 //   return i;
 // }
 
-function insertNodeAt(){
+function insertNodeAt(index, next, linkeList, collection){
   
 }
