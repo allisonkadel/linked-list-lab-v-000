@@ -41,6 +41,6 @@ function insertNodeAt(index, name, linkedList, collection){
   let prevNode = nodeAt(index-1, linkedList, collection);
   prevNode.next = name;
   let afterNode = nodeAt(index+1, linkedList, collection);
-  collection[node] = {name: name, next: afterNode.name};
+  collection[name] = {name: name, next: afterNode.name};
   collection
 }
