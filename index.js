@@ -37,7 +37,7 @@ function addressAt(index, linkedList, collection){
 //   return i;
 // }
 
-function insertNodeAt(index, next, linkeList, collection){
+function insertNodeAt(index, next, linkedList, collection){
   let prevNode = nodeAt(index-1, linkedList, collection);
   prevNode.next = next;
   let afterNode = nodeAt(index+1, linkedList, collection);
