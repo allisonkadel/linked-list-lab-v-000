@@ -36,3 +36,4 @@ function indexAt(node, collection, linkedList){
   }
   return i;
 }
+
